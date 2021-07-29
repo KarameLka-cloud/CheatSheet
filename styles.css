@@ -7,35 +7,38 @@
 body {
   width: 800px;
   margin: auto;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 h1 {
   text-align: center;
+  font-family: Kalam;
+  color: white;
 }
 
 h2 {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
-  color: purple;
+  font-family: Kalam;
 }
 
 thead {
-  background-color: seagreen;
+  background-color: #AF4425;
+  color: white;
 }
 
 th, td {
   padding: 2px;
-  /*background-color: teal;*/
+  font-family: 'Architects Daughter';
 }
 
 tbody td {
-  border-top: 2px solid blue;
+  border-top: 2px solid #EBDCB2;
 }
 
 .header {
-  background-color: aquamarine;
+  background-color: #662E1C;
   width: 600px;
   margin: auto;
   margin-top: 20px;
@@ -44,12 +47,16 @@ tbody td {
 .table-tags table {
   width: 600px;
   margin: auto;
-  border: 2px solid red;
+  border: 2px solid #EBDCB2;
 }
 
 .table-attributes table {
   width: 600px;
   margin: auto;
-  border: 2px solid red;
+  border: 2px solid #EBDCB2;
   margin-bottom: 20px;
+}
+
+.tag, .attr {
+  background-color: #C9A66B;
 }
