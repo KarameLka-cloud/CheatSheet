@@ -17,6 +17,20 @@ h2 {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
+  color: purple;
+}
+
+thead {
+  background-color: seagreen;
+}
+
+th, td {
+  padding: 2px;
+  /*background-color: teal;*/
+}
+
+tbody td {
+  border-top: 2px solid blue;
 }
 
 .header {
